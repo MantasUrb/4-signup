@@ -33,15 +33,23 @@ body {
     color: #fff;
     font-size: 30px;
     line-height: 30px;
+    display: inline-block;
+}
+
+.bottom-links {
+    color: #fff;
+    display: inline-block;
+
 }
 
 .link {
-    color: #fff
+    color: #fff;
 
 }
 
 .symbol {
     color: #fff;
+    display: inline-block;
 }
 
 .right-column {
@@ -49,4 +57,33 @@ body {
     float: left;
     width: 60%;
     background-color: #fff;
+    padding: 60px;
+
+}
+
+.form {
+    display: inline-block;
+    width: 100%;
+}
+
+.form > .form-row {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.form > .form-row:last-child {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.form > .form-row > label {
+    width: 100%;
+    display: inline-block;
+}
+
+.form > .form-row > input {
+    width: 100%;
+    display: inline-block;
 }
