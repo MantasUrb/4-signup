@@ -1,9 +1,18 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 body {
-    background-color: #8ecadf;
+    background-color: #2a81a0;
 
 }
 
-main {
+.container {
     display: inline-block;
     width: 800px;
     margin-top: 100px;
@@ -11,17 +20,127 @@ main {
     margin-right: calc((100% - 800px) / 2);
 }
 
-div:first-of-type {
-    display: inline-block;
+.left-column {
     float: left;
     width: 40%;
-    background-color: azure;
-
+    background-color:rgba(195, 131, 255, 0.425);
+    padding: 30px;
 }
 
-div:last-of-type {
+.main-title {
+    margin-bottom: 100px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
     display: inline-block;
+}
+
+.bottom-links {
+    color: #fff;
+    display: inline-block;
+}
+
+.link {
+    color: #fff;
+}
+
+.symbol {
+    color: #fff;
+    display: inline-block;
+}
+
+.right-column {
     float: left;
     width: 60%;
     background-color: #fff;
+    padding: 60px;
+    position: relative;
+}
+
+.close {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 54px;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.form {
+    display: inline-block;
+    width: 100%;
+}
+
+.form > .form-row {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.form > .form-row:last-child {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.form > .form-row > label {
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #777;
+}
+
+.form > .form-row > input {
+    width: 100%;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.form > .form-row > input:focus {
+    background-color: rgba(195, 131, 255, 0.425);
+    outline: 1px dashed red;
+}
+
+.form > .form-row > button {
+    float: left;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: bold;
+    background-color: #015cda;
+    color: #fff;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+}
+.form > .form-row > span {
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 16px;
+    margin-left: 10px;
+}
+.form > .form-row > a {
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #015cda;
+}
+
+.form > .form-row > a:hover {
+    text-decoration: underline;
+    color: red;
+
 }
