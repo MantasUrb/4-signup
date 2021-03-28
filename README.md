@@ -21,4 +21,4 @@ Design: [Sign Up](https://cdn.discordapp.com/attachments/648536139677958156/6488
 
 ## Authors
 
-[Mantas](https://github.com/MantasUrb)
+[Mantas U.](https://github.com/MantasUrb)
